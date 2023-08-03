@@ -8,32 +8,58 @@
     <script src="https://kit.fontawesome.com/cc86925176.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container bg-gurey">
-    <div class="testing bg-gurey flex justify-between">
     
-        
-        <h1 class=" text-white text-[1.5rem] items-center flex"><img class="h-auto max-w-[5rem]" src="./img/logo.png" alt="">Visual Studio Code</h1>
+    <header class="testing bg-gurey flex  flex-row justify-between relative ">
+        <div class="container">
+            <div class="branding__wrapper flex justify-between">
+            <div class="branding">
+                <h1 class="title text-white text-[1.5rem] items-center flex ">
+                <img class="h-auto max-w-[5rem]" src="./img/logo.png" alt="">Visual Studio Code<h1>
+                    
+            </div>
 
-        <div class="burgir p-[1rem] space-y-1.5 hover:bg-asul rounded-xl hover:cursor-pointer">
-            <div class="w-8 h-0.5 bg-white "></div>
-            <div class="w-8 h-0.5 bg-white "></div>
-            <div class="w-8 h-0.5 bg-white "></div>
+        <div class="burgir p-[1rem] hover:bg-asul flex flex-col gap-[.2rem] lg:hidden">
+            <span class="w-[2rem] h-[.2rem] bg-light block rounded-full"></span>
+            <span class="w-[2rem] h-[.2rem] bg-light block rounded-full"></span>
+            <span class="w-[2rem] h-[.2rem] bg-light block rounded-full"></span>
         </div>
+    <div class="options__nav overflow-hidden h-[0rem] overflow-y-scroll absolute left-0 w-full transition-all top-[6rem] ">
+    <div class=" header__text flex flex-col bg-gurey text-white ">
+        <ul>
+        <li class="li"><a href="">Docs</a></li>
+        <li class="li"><a href="">Updates</a></li>
+        <li class="li"><a href="">Blog</a></li>
+        <li class="li"><a href="">API</a></li>
+        <li class="li"><a href="">Extensions</a></li>
+        <li class="li"><a href="">FAQ</a></li>
+        <li class="li"><a href="">Learn</a></li>
+        <li class="li"><a href="">Search</a></li>
+        <li class="li bg-asul hover:bg-transparent"><a href=""><i class="fa-solid fa-download p-[.5rem]"></i> Download</a></li>
+    </ul>
     </div>
-    <div class="options__nav overflow-hidden h-[0rem]">
-    <div class=" header__text flex flex-col gap-[1.5rem] bg-gurey text-white">
-        <a href="">Docs</a>
-        <a href="">Updates</a>
-        <a href="">Blog</a>
-        <a href="">API</a>
-        <a href="">Extensions</a>
-        <a href="">FAQ</a>
-        <a href="">Learn</a>
-        <a href="">Search</a>
-        <a href=""><i class="fa-solid fa-download"></i> Download</a>
+    <div class="desktop__text ">
+        <ul>
+            <li class="li"><a href="">Docs</a></li>
+            <li class="li"><a href="">Updates</a></li>
+            <li class="li"><a href="">blog</a></li>
+            <li class="li"><a href="">API</a></li>
+            <li class="li"><a href="">Extensions</a></li>
+            <li class="li"><a href="">FAQ</a></li>
+            <li class="li"><a href="">Learn</a></li>
+        </ul>
+    </div>
+    <div class="download sm:hidden">
+        <ul>
+            <li class="li"><a href="">Search</a></li>
+            <li class="li"><a href="">Download</a></li>
+        </ul>
+    </div>
+    </div>
     </div>
 </div>
-</div>
+</header>
+
+
 
 
     

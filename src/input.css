@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 .container{
-    max-width: 130rem;
+    max-width: 90rem;
     margin: 0 auto;
     padding: 1.5rem;
 }
+
+
+@layer components{
+    .options__nav li{
+    @apply py-[.75rem] p-[1rem];
+    }
+
+    .options__nav{
+    
+    }
+}
+    
